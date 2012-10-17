@@ -53,8 +53,11 @@ $autoload['packages'] = array();
 */
 
 $autoload['libraries'] = array(
-	'database'
+	'database',
 );
+//Echonest
+require_once APPPATH.'libraries/EchoNest/Autoloader.php';
+EchoNest_Autoloader::register();
 
 
 /*
